@@ -1,9 +1,5 @@
 ﻿using EspadasApi.Models;
 using Microsoft.EntityFrameworkCore;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
 
 namespace EspadasApi.Context
 {
@@ -22,7 +18,7 @@ namespace EspadasApi.Context
                     Nome = "Cimitarra",
                     Familia = "Flame",
                     Forca = 71,
-                    Durabilidade = 100.00
+                    Durabilidade = 100
                 },
                 new Espada
                 {
@@ -30,7 +26,7 @@ namespace EspadasApi.Context
                     Nome = "Alfange",
                     Familia = "Dark",
                     Forca = 41,
-                    Durabilidade = 100.00
+                    Durabilidade = 80
                 },
                 new Espada
                 {
@@ -38,7 +34,7 @@ namespace EspadasApi.Context
                     Nome = "Montante",
                     Familia = "Dark",
                     Forca = 65,
-                    Durabilidade = 94.21
+                    Durabilidade = 94
                 }
             );
         }

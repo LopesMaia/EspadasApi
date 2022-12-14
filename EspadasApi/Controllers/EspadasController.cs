@@ -1,10 +1,7 @@
 ﻿using EspadasApi.Models;
 using EspadasApi.Services;
-using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
-using System;
 using System.Collections.Generic;
-using System.Linq;
 using System.Threading.Tasks;
 
 //O controller será usado para exibir os endpoins especificos
@@ -14,7 +11,7 @@ namespace EspadasApi.Controllers
     [ApiController]
     public class EspadasController : ControllerBase
     {
-        private IEspadaService _espadaService; 
+        private IEspadaService _espadaService;
 
         public EspadasController(IEspadaService espadaService)
         {
